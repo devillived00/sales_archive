@@ -1,3 +1,7 @@
+v15.0.0.3
+=========
+* Added controller which prevents not Admin users from going debug mode.
+
 v15.0.0.2
 =========
 * Created SaleOrderArchive model with required fields.

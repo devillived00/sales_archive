@@ -1,9 +1,5 @@
-from odoo import api, fields, models
-import logging
-from dateutil.relativedelta import relativedelta
+from odoo import fields, models
 import datetime
-
-_logger = logging.getLogger(__name__)
 
 class SaleOrderArchive(models.Model):
     _name = "sale.order.archive"
