@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sale_custom_report_wizard_view" model="ir.ui.view">
+        <field name="name">sale_custom_report.wizard.</field>
+        <field name="model">sale.custom.report</field>
+        <field name="arch" type="xml">
+            <form string="Report">
+                <group>
+                    <field name='csv_name' invisible='1'/>
+                    <field name='generated_csv' filename='csv_name'/>
+                </group>
+                <footer>
+                    <button name="action_generate_report" string="Export" type="object" default_focus="1" class="oe_highlight"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

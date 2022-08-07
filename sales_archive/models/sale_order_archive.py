@@ -1,8 +1,10 @@
 from odoo import fields, models
 import datetime
 
+
 class SaleOrderArchive(models.Model):
     _name = "sale.order.archive"
+    _description = "SaleOrderArchive"
     
     name = fields.Char(string='Name')
     order_create_date = fields.Date(string='Date')

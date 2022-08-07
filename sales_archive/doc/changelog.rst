@@ -1,3 +1,9 @@
+v15.0.1.0
+=========
+* Added Transient model for Custom Sale Reports.
+* Created wizard views.
+* Updated access rights.
+
 v15.0.0.3
 =========
 * Added controller which prevents not Admin users from going debug mode.
