@@ -118,7 +118,7 @@ class SaleCustmoReport(models.TransientModel):
                             "Average Price", "Sale Amount"])
             for product in self.get_product_list():
                 report.writerow(
-                    [product.name, self.get_product_order_count(product.id), self.get_average_price(product.id), self.get_total_amount(product.id)])
+                    [f"[{product.default_code}]{product.name} | {product.barcode}", self.get_product_order_count(product.id), self.get_average_price(product.id), self.get_total_amount(product.id)])
 
         with open(data_dir + '/sale_report.csv', mode='r', newline='') as file:
             data = file.read()

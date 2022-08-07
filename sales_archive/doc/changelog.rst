@@ -1,3 +1,7 @@
+v15.0.1.1
+=========
+* Added unit tests.
+
 v15.0.1.0
 =========
 * Added Transient model for Custom Sale Reports.

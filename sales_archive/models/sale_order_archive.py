@@ -1,7 +1,6 @@
 from odoo import fields, models
 import datetime
 
-
 class SaleOrderArchive(models.Model):
     _name = "sale.order.archive"
     _description = "SaleOrderArchive"

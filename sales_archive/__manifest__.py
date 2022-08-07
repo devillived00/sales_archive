@@ -7,7 +7,7 @@
     'author': 'Patryk Kosnik',
     'website': '',
     'category': 'Sales',
-    'version': '[V15].0.1.0',
+    'version': '[V15].0.1.1',
     'depends': [
         'sale'
     ],
